@@ -10,7 +10,7 @@ def analyze(input_string):
     # Inisialisasi State 
     state_list = []; list(state_list.append(f'q{i}') for i in range(39))
 
-    # Inisilisasi Nili Awal
+    # Inisilisasi Nilai Awal
     transition_table = defaultdict(lambda: "ERROR", {})
 
     # Initial State (q0)
