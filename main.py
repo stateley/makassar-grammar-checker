@@ -53,6 +53,6 @@ with st.sidebar:
    st.caption('Alif Faidhil Ahmad (1301204141)\n')
    st.markdown('Find us at : ')    
 
-   url = "https://github.com/yunolva"
+   url = "https://share.streamlit.io/yunolva/makassar-grammar-checker/main/main.py"
    if st.button('Github'):
      webbrowser.open_new_tab(url)
